@@ -4,9 +4,13 @@
 
 ---
 
-- `/dialog/questions`
+- POST : `/dialogs`
 
     > Méthode GET : Retourne la liste des questions ainsi que son identifiant.
-{ id : number, question: string }
+    { id : number, question: string }
 
-- `/dialogs`
+- GET : `/dialogs`
+
+- DELETE : `/dialogs`
+
+- PATCH : `/dialogs`
